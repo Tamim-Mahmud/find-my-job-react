@@ -3,8 +3,11 @@ import LandPage from "./LandPage";
 import CategoryList from "./CategoryList";
 import FeatureJob from "./FeatureJob";
 import { createContext } from "react";
+import App from "./App";
+import AppliedJobs from "./AppliedJobs";
 
 export const DataContext = createContext([]);
+
 
 const Home = () => {
   const [categories, setCategories] = useState([]);
@@ -32,6 +35,7 @@ const Home = () => {
       {seeAll || <button className="btn btn-primary text-white mx-auto block mt-5 mb-5" onClick={()=>setSeeAll(!seeAll)}>See All Jobs</button>}
       {seeAll && <button className="btn btn-primary text-white mx-auto block mt-5 mb-5" onClick={()=>setSeeAll(!seeAll)}>See Less Jobs</button>}
       </DataContext.Provider>
+      
     </div>
   );
 };

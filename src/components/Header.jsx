@@ -3,8 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
-      <nav className="flex justify-between items-center mt-5 sticky top-10">
+    <div className="sticky  top-0 bg-white z-50">
+      <nav className="flex justify-between items-center mt-5">
         <Link className="text-2xl font-bold" to="/">Find<span className="text-blue-800">My</span>Job</Link >
 
         <ul className="flex gap-x-7 text-lg">
