@@ -1,8 +1,10 @@
 import React from "react";
 import img from "../assets/logo/netflix.png";
+import { Link } from "react-router-dom";
 
 const Job = ({ job }) => {
   const {
+    id,
     company_name,
     location,
     logo,
@@ -12,10 +14,10 @@ const Job = ({ job }) => {
     job_type,
   } = job;
   // console.log(company_name,location,logo,salary,remote_or_onsite,job_title)
-  console.log(job);
+  // console.log(job);
   return (
-    <div className="text-left border border-1 p-8 space-y-6">
-      <img className="w-32" src={img} alt="" />
+    <div className="text-left border border-1 p-8 space-y-6 w-96">
+      <img className=" h-11" src={logo} alt="" />
       <h1>{job_title}</h1>
       <h1>{company_name}</h1>
       <div className="">
@@ -67,7 +69,7 @@ const Job = ({ job }) => {
         Salary : {salary}
         </h2>
       </div>
-      <button className="btn btn-primary text-white rounded-md">View Details</button>
+      <Link to={`/job-details/${id}`} className="btn btn-primary text-white rounded-md" >View Details</Link >
     </div>
   );
 };

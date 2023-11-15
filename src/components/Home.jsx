@@ -14,15 +14,15 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       const [categoriesData, jobsData] = await Promise.all([
-        fetch("categories.json").then((res) => res.json()),
-        fetch("jobs.json").then((res) => res.json()),
+        fetch("/categories.json").then((res) => res.json()),
+        fetch("/jobs.json").then((res) => res.json()),
       ]);
       setCategories(categoriesData);
       setJobs(jobsData);
     };
     fetchData();
   }, []);
-  console.log(seeAll);
+  // console.log(seeAll);
   return (
     <div className="">
       <DataContext.Provider value={[categories, jobs, seeAll]}>

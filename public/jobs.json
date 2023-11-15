@@ -1,7 +1,7 @@
 [
      {
       "id": 1,
-      "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
       "remote_or_onsite": "Remote",
@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "logo": "https://i.ibb.co/H4wJGhb/netflix-4-1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "remote_or_onsite": "Onsite",
@@ -39,7 +39,7 @@
       },
       {
         "id": 3,
-        "logo": "https://i.ibb.co/JRXgX92/tesla-9-1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
         "job_title": "Software Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Onsite",
@@ -58,7 +58,7 @@
       },
       {
         "id": 4,
-        "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg",
         "job_title": "Software Engineer",
         "company_name": "Google LLC",
         "remote_or_onsite": "Onsite",
@@ -77,7 +77,7 @@
       },
       {
         "id": 5,
-        "logo": "https://i.ibb.co/JRXgX92/tesla-9-1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
         "job_title": "Technical Database Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Remote",
@@ -96,7 +96,7 @@
       },
       {
         "id": 6,
-        "logo": "https://i.ibb.co/H4wJGhb/netflix-4-1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "remote_or_onsite": "Remote",
@@ -112,6 +112,62 @@
           "email": "info@gmail.com",
           "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
         }
+      },
+      {
+        "id": 7,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+        "job_title": "Software Engineer",
+        "company_name": "Amazon",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle, Washington, USA",
+        "job_type": "Full Time",
+        "salary": "120k-180k",
+        "job_description": "Design, develop, and maintain software applications and systems. Work with a team of engineers to solve complex technical problems. Write clean, maintainable, and efficient code.",
+        "job_responsibility": "Collaborate with cross-functional teams to understand and meet business requirements. Design and implement software solutions that are scalable, performant, and secure. Write unit tests and documentation to ensure the quality of your code.",
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+        "experiences": "3+ years of experience in software development.",
+        "contact_information": {
+          "phone": "(206) 266-2992",
+          "email": "jobs@amazon.com",
+          "address": "410 Terry Ave N, Seattle, WA 98109, USA"
+        }
+      },
+      {
+        "id": 8,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+        "job_title": "Software Development Engineer in Test (SDET)",
+        "company_name": "Microsoft",
+        "remote_or_onsite": "Hybrid",
+        "location": "Redmond, Washington, USA",
+        "job_type": "Full Time",
+        "salary": "110k-160k",
+        "job_description": "Design, develop, and execute test plans to ensure the quality of software products. Work with a team of engineers and product managers to identify and resolve software defects. Write automated tests and documentation to support the testing process.",
+        "job_responsibility": "Develop and execute test plans to ensure the quality of software products. Identify and resolve software defects. Write automated tests and documentation to support the testing process. Collaborate with a team of engineers and product managers to ensure that the testing process is aligned with business and technical requirements.",
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+        "experiences": "2+ years of experience in software testing.",
+        "contact_information": {
+          "phone": "(425) 882-8080",
+          "email": "jobs@microsoft.com",
+          "address": "One Microsoft Way, Redmond, WA 98052, USA"
+        }
+      },
+      {
+        "id": 9,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg",
+        "job_title": "Data Scientist",
+        "company_name": "Google",
+        "remote_or_onsite": "Hybrid",
+        "location": "Mountain View, California, USA",
+        "job_type": "Full Time",
+        "salary": "130k-190k",
+        "job_description": "Collect, analyze, and interpret large datasets to extract meaningful insights. Use machine learning and statistical techniques to develop predictive models. Communicate findings to stakeholders and recommend data-driven solutions.",
+        "job_responsibility": "Collect, clean, and prepare large datasets for analysis. Develop and implement machine learning models to solve business problems. Communicate findings to stakeholders in a clear and concise way. Recommend data-driven solutions to improve business processes.",
+        "educational_requirements": "Master's degree in Data Science, Statistics, or a related field.",
+        "experiences": "2+ years of experience in data science.",
+        "contact_information": {
+          "phone": "(650) 253-0000",
+          "email": "jobs@google.com",
+          "address": "1600 Amphitheatre Pkwy, Mountain View, CA"
+        }
       }
-  
   ]
