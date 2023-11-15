@@ -2,7 +2,7 @@ import React from "react";
 import user from "../assets/images/user.png";
 const LandPage = () => {
   return (
-    <div className="flex items-center mt-7 ">
+    <div className="flex items-center ">
       <div className="">
         <h2 className="">
           <span className="text-4xl font-bold">
