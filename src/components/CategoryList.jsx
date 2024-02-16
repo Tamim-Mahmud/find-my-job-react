@@ -10,10 +10,29 @@ const CategoryList = () => {
   const [categories] = useContext(DataContext);
 
   // console.log(categories);
-  const getCategoryImage = (id) => {
-    const image = eval(`img${id}`);
-    return image;
-  };
+
+
+const getCategoryImage = (id) => {
+  let image;
+  switch(id) {
+    case 1:
+      image = img1;
+      break;
+    case 2:
+      image = img2;
+      break;
+    case 3:
+      image = img3;
+      break;
+    case 4:
+      image = img4;
+      break;
+    default:
+      // Handle default case or throw an error if necessary
+      break;
+  }
+  return image;
+};
   // console.log(categories);
   return (
     <div className="w-fit mx-auto mt-10 text-center">
